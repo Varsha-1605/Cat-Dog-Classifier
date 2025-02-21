@@ -10,6 +10,9 @@ from datetime import datetime
 import json
 import logging
 from pathlib import Path
+import warnings
+import warnings
+warnings.filterwarnings('ignore')
 
 # Configure logging
 logging.basicConfig(
